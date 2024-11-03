@@ -10,22 +10,4 @@ export const conectDB = async () => {
 
 }
 
-// export const conectDB = async () => {
-//     try {
-//         const username = 'jolgo'
-//         const password = 'AP288338'
-//         const host = 'localhost'
-//         const dbname = 'merndb'
-//         URI de conexión con credenciales
-//         const uri = `mongodb://${username}:${password}@${host}/${dbname}?authSource=admin`;
-
-//         Conectar a la base de datos
-//         await mongoose.connect(uri);
-
-//         console.log('>>>>> DB conectada');
-//     } catch (error) {
-//         console.log('Error conectando a la DB:', error);
-//     }
-// };
-
-//?base de datos sin autenticación
+//!esta base de datos hay que autenticarla
